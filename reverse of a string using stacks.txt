@@ -1,0 +1,14 @@
+#revere of a sentence using stacks
+def reverse(k):
+    s=[]
+    token =k.split()
+    for word in token:
+        s.append(word)
+        print(word)
+    while(len(s)):
+        print(s.pop(),end=" ")
+if __name__=="__main__":
+    k=input()
+    reverse(k)
+#input = i love to code
+#output= code to love i
